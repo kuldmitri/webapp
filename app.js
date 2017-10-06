@@ -6,7 +6,7 @@ var app = express();
 var jsonParser = bodyParser.json();
 
 app.use(express.static(__dirname + "/public"));
-// получение списка данных
+// получение списка данных 1111111111
 app.get("/api/users", function(req, res){
 	
     var content = fs.readFileSync("users.json", "utf8");
